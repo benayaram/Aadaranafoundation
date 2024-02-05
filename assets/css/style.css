@@ -59,6 +59,41 @@ body.white-color .navbar-nav .nav-item.active .nav-link {
     color: #007bff; /* Adjust the active color as needed */
 }
 
+/* Add styles for the carousel caption */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Set the text color */
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+}
+
+.carousel-caption p {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add some spacing */
+}
+
+.carousel-caption .cta-button {
+    margin-top: 20px; /* Add some spacing */
+}
+
+/* Adjust styles for the carousel items to fit the screen */
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Remove padding from jumbotron */
+.jumbotron {
+    padding: 0;
+}
 /* Add styles for the footer */
 footer {
     padding: 40px 0;
