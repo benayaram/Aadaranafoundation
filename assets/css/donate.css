@@ -116,3 +116,52 @@ footer {
 .footer-links a:hover {
     color: #ffc107; /* Adjust the hover color as needed */
 }
+
+/* Donation Section Styles */
+.donation-section {
+    padding: 60px 0;
+}
+
+.donation-info {
+    padding-right: 30px; /* Adjust spacing between elements */
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    color: #007bff; /* Blue color for section headings */
+    margin-bottom: 30px;
+}
+
+.donation-text {
+    font-size: 1.2rem;
+    color: #666; /* Medium-dark color for paragraphs */
+    margin-bottom: 20px;
+}
+
+.donation-form {
+    border: 1px solid #ccc; /* Example border for the donation form */
+    padding: 20px;
+}
+
+.form-heading {
+    font-size: 1.8rem;
+    color: #333; /* Dark color for form headings */
+    margin-bottom: 20px;
+}
+
+/* Account Details Section Styles */
+.account-details {
+    background: linear-gradient(to bottom, #ff5b4e, #ffc107);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.account-details p {
+    margin-bottom: 10px; /* Add spacing between account details */
+}
+
+.account-details p:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last paragraph */
+}

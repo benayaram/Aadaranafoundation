@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <!-- Add any additional styles or libraries for image carousel here -->
@@ -56,9 +56,51 @@
         </ul>
     </div>
 </nav>
+ <!-- Contact Section -->
+ <div class="container mt-5">
+    <div class="row">
+        <!-- Contact Info Section -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-map-marker-alt mr-2"></i>ADDRESS</h5>
+                    <p class="card-text">4-120 - NEAR BUS STAND, KOTIKESAVARAM, Kotikesavaram S.O Kotikesavaram,
+                        EAST GODAVARI, Andhra Pradesh PIN : 533290.</p>
 
-<H1 style="padding:100px;">This is a Contact Page</H1>
+                    <h5 class="card-title mt-4"><i class="fas fa-phone-alt mr-2"></i>PHONE</h5>
+                    <p class="card-text">+91 7382106748</p>
 
+                    <h5 class="card-title mt-4"><i class="fas fa-envelope mr-2"></i>EMAIL</h5>
+                    <p class="card-text"><a href="mailto:aadaranadoundation@gmail.com">aadaranadoundation@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Message Form Section -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-envelope-open-text mr-2"></i>Send Message Us</h5>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
  <!-- Footer Section using Bootstrap classes -->
     <!-- Footer Section using Bootstrap classes -->
 <footer class="bg-dark text-white mt-3">
@@ -113,6 +155,21 @@
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the form from submitting
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+            var message = document.getElementById('message').value;
+            var mailtoLink = 'mailto:aadaranadoundation@gmail.com?subject=Message from ' + name +
+                '&body=Email: ' + email +
+                '%0APhone: ' + phone +
+                '%0A%0A' + message;
+            window.location.href = mailtoLink;
+        });
+    </script>
 
 </body>
 
