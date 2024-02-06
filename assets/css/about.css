@@ -1,0 +1,155 @@
+/* About Page Styles */
+/* White Color */
+body.white-color,
+body.white-color .navbar,
+body.white-color .navbar-light {
+    background-color: #fff;
+    color: #333;
+}
+
+body.white-color .navbar-toggler-icon,
+body.white-color .navbar-nav .nav-link {
+    color: #333;
+}
+
+body.white-color .navbar-toggler-icon:hover,
+body.white-color .navbar-toggler-icon:focus {
+    color: #333;
+}
+
+body.white-color .navbar-nav .nav-link:hover,
+body.white-color .navbar-nav .nav-link:focus {
+    color: #333;
+}
+
+body.white-color .navbar-toggler {
+    border-color: #333;
+}
+
+body.white-color .navbar-toggler-icon {
+    background-color: #f8f9fa;
+}
+
+.navbar-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Hover color for navbar links */
+body.white-color .navbar-nav .nav-link:hover,
+body.white-color .navbar-nav .nav-link:focus {
+    color: orange; /* Adjust the hover color as needed */
+}
+
+/* Active color for navbar links */
+body.white-color .navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Adjust the active color as needed */
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+footer {
+    padding: 40px 0;
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    color: #fff;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s; /* Add smooth transition for color change */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #ffc107; /* Change the color on hover as needed */
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Adjust the background color and other styles based on your design */
+.footer-bg-dark {
+    background-color: #333;
+}
+
+/* Add styles for the useful links section */
+.useful-links {
+    margin-bottom: 30px;
+}
+
+.useful-links h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.useful-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.useful-links li {
+    margin-bottom: 8px;
+}
+
+/* Hover color for footer links */
+.footer-links a:hover {
+    color: #ffc107; /* Adjust the hover color as needed */
+}
+
+/* Add custom CSS for the About page */
+.about-section {
+    padding: 50px 0;
+}
+
+.about-card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
