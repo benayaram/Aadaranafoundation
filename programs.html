@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <!-- Add any additional styles or libraries for image carousel here -->
-    <title>AADARANA FOUNDATION</title>
+    <title>Programs - AADARANA FOUNDATION</title>
     <!-- Include the separate CSS file for the navbar -->
     <link rel="stylesheet" href="assets/css/programs.css">
     <link rel="shortcut icon" href="./assets/images/LOGO.png" type="image/x-icon">
@@ -56,8 +56,19 @@
     </div>
 </nav>
 
-<H1 style="padding:100px;">This is a Programs Page</H1>
-
+  <div class="container">
+        <h1 class="title">Our Programs</h1>
+        <!-- <div class="search-container">
+            <label for="fromDate">From:</label>
+            <input type="date" id="fromDate" name="fromDate">
+            <label for="toDate">To:</label>
+            <input type="date" id="toDate" name="toDate">
+            <button onclick="searchPrograms()">Search</button>
+        </div> -->
+        <div id="programCards">
+            <!-- Program cards will be dynamically added here -->
+        </div>
+    </div>
  <!-- Footer Section using Bootstrap classes -->
     <!-- Footer Section using Bootstrap classes -->
 <footer class="bg-dark text-white mt-3">
@@ -92,9 +103,8 @@
                 <div class="useful-links">
                     <h4>Our Programs</h4>
                     <ul>
-                        <li><a href="#">Program 1</a></li>
-                        <li><a href="#">Program 2</a></li>
-                        <!-- Add more program links as needed -->
+                        <li><a href="./programs.html">Program 1</a></li>
+                        <li><a href="./programs.html">Program 2</a></li>
                     </ul>
                 </div>
             </div>
@@ -112,7 +122,7 @@
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<script src="./assets/js/programs.js"></script>
 </body>
 
 </html>
