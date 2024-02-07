@@ -146,3 +146,15 @@ footer {
 .card-text {
     color: #666;
 }
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    padding: .5rem 1rem;
+    justify-content: space-around;
+}
