@@ -5,7 +5,11 @@ body.white-color .navbar-light {
     background-color: #fff;
     color: #333;
 }
-
+.container {
+    /* width: 980px; */
+    margin-right: auto;
+    margin-left: auto;
+}
 body.white-color .navbar-toggler-icon,
 body.white-color .navbar-nav .nav-link {
     color: #333;
